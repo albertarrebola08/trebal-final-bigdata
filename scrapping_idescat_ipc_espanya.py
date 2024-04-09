@@ -19,8 +19,3 @@ table = soup.find('table')
 df = pd.read_html(str(table))[0]
 
 df.to_csv('catalunya_ipc.csv', index=False)
-
-
-
-
-
